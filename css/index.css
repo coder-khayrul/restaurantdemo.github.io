@@ -1,0 +1,798 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.myBackground {
+    background: linear-gradient(#00000094, #00000085), url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section {
+    padding: 60px 0px;
+    overflow: hidden;
+}
+
+/* topbar start here */
+.topbar {
+    background: transparent;
+    color: white;
+
+}
+
+.phone_date i {
+    color: #CDA45E;
+}
+
+.phone_date span {
+    font-size: .9rem;
+}
+
+.language span {
+    color: #CDA45E;
+}
+
+/* topbar ends here */
+
+/* header start here */
+#header {
+    background: #00000094;
+}
+
+.navbar-brand {
+    font-size: 1.8rem !important;
+    color: white !important;
+}
+
+.navbar-nav li a {
+    color: white;
+    transition: .3s;
+
+}
+.navbar-nav li:first-child a {
+    color: #CDA45E !important;
+}
+.navbar-nav li a:hover {
+    color: #CDA45E;
+}
+/* javascript class */
+.navbar-nav.activeButton {
+    color: #CDA45E;
+}
+.header-button button {
+    border: 2px solid #CDA45E;
+    background: transparent;
+    transition: .3s;
+    color: white;
+    border-radius: 50px;
+    padding: 5px 25px;
+    font-size: .9rem;
+    font-weight: 600;
+
+}
+
+.header-button button:hover {
+    background-color: #CDA45E;
+}
+
+@media screen and (max-width:991px) {
+    .offcanvas ul li a {
+        color: black
+    }
+
+    .offcanvas a button {
+        color: black;
+    }
+}
+
+/* header ends here */
+
+/* hero section start here */
+#hero-section {
+    height: 80vh;
+    color: white !important;
+}
+
+.heading h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.heading h1 span {
+    color: #CDA45E;
+
+}
+
+.heading h4,
+.content h3,
+.singleBox h3,
+.ourRs_section_title h2,
+.mixi-btn button,
+.section_title h2,
+.content_para h3,
+.event-subtitle h3,
+.T_profile_info h3,
+.chefs_name h5 ,
+.footerInfo p,
+section#footer-section h5{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+@media screen and (max-width:768px) {
+    .heading h1 {
+        font-size: 2rem;
+
+    }
+
+    .heading h4 {
+        font-size: 1.2rem;
+    }
+}
+
+.hero-section_buttons button {
+    border: 2px solid #CDA45E;
+    border-radius: 50px;
+    background: #00000063;
+    color: white;
+    padding: 10px 25px;
+    font-size: .9rem;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.hero-section_buttons button:hover {
+    background-color: #CDA45E;
+}
+
+.hero-section-video a {
+    text-decoration: none;
+    color: white;
+    background: #CDA45E;
+    padding: 25px 29px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.hero-section-video a i {
+    font-size: 1.3rem;
+    transform: scale(1);
+    transition: .7s;
+
+}
+
+@keyframes hoverEffect {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(5);
+    }
+}
+
+.hero-section-video {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    border-radius: 100%;
+    background: #cda45e7d;
+}
+
+
+
+.hero-section-video:hover i {
+    transform: scale(9);
+    color: white !important;
+    animation: hoverEffect 1s 2;
+    animation-iteration-count: infinite;
+}
+
+/* hero section ends here */
+
+/* about section start here */
+section#about_section {
+    background: linear-gradient(#000000a8, #000000db), url(../img/about-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 80px 0px;
+}
+
+section#about_section .content p {
+    font-size: 1.1rem;
+}
+
+.content ul li {
+    list-style: none;
+}
+
+.content ul li i {
+    color: #CDA45E;
+    font-size: 1.5rem;
+}
+
+.content_img img {
+    transform: scale(1);
+    border: 4px solid #CDA461;
+    transition: .5s;
+}
+
+.content_img:hover img {
+    transform: scale(1.03);
+}
+
+.content_img::before {
+    content: " ";
+    width: 70px;
+    height: 70px;
+    border-top: 4px solid #CDA45E;
+    display: block;
+    border-left: 4px solid #CDA45E;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+    transition: .5s;
+}
+
+.content_img::after {
+    content: " ";
+    width: 70px;
+    height: 70px;
+    border-bottom: 4px solid #CDA45E;
+    display: block;
+    border-right: 4px solid #CDA45E;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1;
+    transition: .5s;
+
+}
+
+.content_img {
+    position: relative;
+}
+
+.content_img:hover:before {
+    top: 5px;
+    left: 5px;
+}
+
+.content_img:hover::after {
+    bottom: 5px;
+    right: 5px;
+}
+
+/* about section ends here */
+
+/* ourRestaurant-section start here */
+section#ourRestaurant-section {
+    background: #0C0B09;
+}
+
+section#ourRestaurant-section .singleBox {
+    background-color: #1a1814;
+    transition: .8s;
+    transform: scale(1);
+}
+
+section#ourRestaurant-section .singleBox:hover {
+    background-color: #CDA45E;
+    transform: scale(1.05);
+
+}
+
+
+
+.section_title h5 {
+    color: #979696;
+
+}
+
+.section_title h5:after {
+    content: " ";
+    width: 100px;
+    height: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #979696;
+    margin-left: 10px;
+}
+
+.section_title h2 {
+    color: #CDA45E;
+    font-weight: 600;
+    font-size: 2.5rem;
+
+}
+
+.singleBox h3 {
+    color: white;
+}
+
+.singleBox p {
+    color: #777;
+}
+
+.singleBox:hover p {
+    color: white;
+}
+
+.singleBox h2 {
+    color: #CDA45E;
+
+}
+
+.singleBox:hover h2 {
+    color: white;
+}
+
+
+/* ourRestaurant-section ends here */
+
+/* our Testy section start here */
+#ourTest-section {
+    background-color: #1A1814;
+}
+
+.food_img {
+    width: 75px;
+    height: 75px;
+
+
+}
+
+.food_img img {
+    width: 100%;
+    border-radius: 100%;
+    border: 4px solid #979696;
+}
+
+.mixi-btn button {
+    border: 2px solid transparent;
+    border-radius: 50px;
+    padding: 5px 25px;
+    margin-right: 20px;
+    background: transparent;
+    color: white;
+    font-size: 1.1rem;
+    transition: .3s;
+
+}
+
+
+.mixi-btn button:hover {
+    border: 1px solid #CDA45E;
+    background: #1A1814;
+    color: #CDA45E;
+
+}
+
+.food_item {
+    margin-bottom: 50px;
+}
+
+.food_content span {
+    color: #CDA45E;
+}
+
+.food_content h5 {
+    color: white;
+    transition: .3s;
+}
+
+.food_content p {
+    font-weight: 500;
+    font-style: italic;
+    color: #696969
+}
+
+.food_content h5:hover {
+    color: #CDA45E;
+}
+
+.food_content span::before {
+    content: " ";
+    width: 250px;
+    height: 1px;
+    color: white;
+    border-bottom: 1px dashed #666;
+    display: inline-block;
+    transform: translate(0px, -265%);
+    margin: 0px 5px;
+}
+
+/* our Testy section ends here */
+
+/* our Specials section start here */
+#ourSpecials-section {
+    background: #0C0B09;
+}
+
+.Specials_list ul li:first-child {
+    color: #583d0d !important;
+    background-color: #CDA45E;
+}
+
+.Specials_list ul {
+    border-right: 2px solid #CDA45E;
+    font-weight: 500;
+}
+
+.Specials_list ul li {
+    padding: 10px 15px;
+    list-style: none;
+    transition: .3s;
+}
+
+.Specials_list ul li:hover {
+    color: #CDA45E;
+}
+
+.content_para p {
+    color: #696969;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+/* our Specials section ends here */
+
+/* Our Event section start here */
+section#ourEvent-section {
+    background: linear-gradient(#000000e0, #000000b5), url(../img/events-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.event-subtitle h3 {
+    color: #CDA45E;
+}
+
+.event-subtitle span {
+    color: white;
+    border-bottom: 2px solid #CDA45E;
+    font-size: 2rem;
+    font-weight: 600;
+    width: 59px;
+
+}
+
+.content ul {
+    color: white;
+}
+
+.content p {
+    color: white;
+    font-size: 1.1rem;
+}
+
+/* swiper .js css */
+.swiper-pagination-horizontal {
+    bottom: 5px !important;
+}
+
+.swiper {
+    overflow: hidden !important;
+    height: 72vh ;
+}
+@media screen and (max-width:992px) {
+    .swiper {
+        overflow: hidden !important;
+        height: 150vh;
+    }
+}
+
+.swiper-pagination-bullet {
+    background: #CDA45E !important;
+    width: 15px !important;
+    height: 15px !important;
+
+}
+
+/* swiper css element */
+
+  /* Table Booking section start here  */
+
+  section#tableBooking-section{
+    background: #0C0B09;
+  } 
+  .form-input input , .formInput input{
+    width: 100%;
+    padding:10px 20px;
+    color: white;
+ 
+    outline: none;
+    background: transparent;
+    transition: .3s;
+   border: 1px solid #625B4B;
+   border-radius: 5px;
+
+  }
+ 
+  .form-input input:focus , .formInput input:focus{
+    border: 1px solid #CDA45E;
+  }
+  .form-input textarea , .formInput textarea{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #625B4B;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  .form-input textarea:focus , .formInput textarea:focus{
+    border: 1px solid #CDA45E;
+  }
+  .form-btn button , .formInput button{
+    border: 1px solid transparent;
+    background: #CDA45E;
+    color: white;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    transition: .3s;
+   
+  }
+  .form-btn button:hover ,.formInput button:hover{
+    border: 1px solid #CDA45E;
+    color: #CDA45E;
+    background: transparent;
+  }
+  /* Table Booking section ends here  */
+
+  /* testimonial section start here */
+
+  section#testimonial-section{
+    background: #1A1814;
+  }
+  .testimonial_box{
+    background: #26231D;
+    padding: 15px;
+    padding-bottom: 45px;
+    color: white;
+    font-style: italic;
+    font-size: 1.1rem;
+    position: relative;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  .testimonial_box i{
+    color: #CDA45E;
+    font-size: 1.8rem;
+    padding-right: 5px;
+    
+  }
+  .testimonial_box i:last-child{
+    padding-left: 5px;
+  }
+  .T_profile_img{
+    width: 80px;
+    height: 80px;
+  
+  }
+  .testimonial_profile{
+    position: absolute;
+    bottom: -130px;
+    left: 30;
+  }
+  .T_profile_img img{
+    width: 100%; 
+     border-radius: 100%;
+    border: 4px solid #484643;
+
+  }
+  .T_profile_info h3{
+    font-size: 1.5rem;
+  }
+  .T_profile_info p{
+    color: #666;
+    font-weight: 600;
+  
+  }
+  .owl-carousel .owl-stage-outer{
+  height: 60vh ;
+  }
+  .owl-dot span{
+    background: #767472 !important;
+  }
+.owl-dot.active span {
+    background: #CDA45E !important;
+}
+  /* testimonial section ends here */
+
+  /* gallery section start here */
+section#gallary-section{
+    background-color: #0C0B09;
+}
+  .gallery-item{
+    padding: 0 !important;
+    border: 3px solid #14181B !important;
+   
+    overflow: hidden !important;
+  }
+  .gallery-item img{
+    transform: scale(1);
+    transition: .5s; 
+  }
+  .gallery-item:hover img{
+    transform: scale(1.1);
+   
+  }
+  /* gallery section ends here */
+
+  /* chefs seciton start here */
+  section#ourChefs-section{
+    background: #0C0B09;
+  }
+  .chefs-card{
+    position: relative;
+    overflow: hidden;
+  }
+  .chefs_info {
+    width: 100%;
+    position: absolute; 
+    bottom: 0;
+    opacity: 0;
+    transition: .5s;
+    padding-top: 300px;
+}
+@media screen and (max-width: 768px) {
+    .chefs_info {
+        padding-top: 600px;
+    }
+}
+.chefs_social_icon{
+    transform: translate(0,80px); 
+    transition: .9s;
+}
+.chefs-card:hover .chefs_social_icon{
+    transform: translate(0,-20px);
+ }
+.chefs_name{
+    transform: translate(0,80px); 
+    transition: .7s;
+  
+}
+.chefs-card:hover .chefs_name{
+   transform: translate(0,-20px);
+}
+.chefs-card:hover .chefs_info{
+    opacity: 1;
+    background: linear-gradient(0deg, #000000e0 99px, transparent 480px);
+  
+}
+  /* chefs seciton ends here */
+
+  /* contact section start here */
+section#contact-section{
+    background:#0C0B09;
+}
+.addr_box{
+    margin-bottom: 25px;
+}
+.addr_icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #CDA45E;
+    color: white;
+    font-size: 1.5rem;
+    display: grid;
+    place-items: center;
+
+}
+.addr_info p{
+    margin-bottom: 0 !important;
+    color: #666;
+}
+.addr_info h3{
+    font-size: 1.3rem;
+    color: white;
+}
+  /* contact section ends here */
+
+  /* footer section start here */
+
+  section#footer-section{
+    background: #0C0B09;
+    border-top: 1px solid #CDA45E;
+    color: white;
+  }
+  section#footer-section ul li{
+    list-style: none;
+    padding:5px 0px ;
+
+  }
+  .footer_icons a{
+   width: 40px;
+   height:40px;
+   border-radius: 100%;
+   background: #1a1814;
+   display: grid;
+   place-items: center;
+   text-decoration: none;
+   transition: .3s;
+  
+    
+  }
+  .footer_icons a:hover{
+    background: #a57d38;
+  }
+  section#footer-section ul li i{
+    color: #CDA45E;
+    margin-right: 5px;
+    font-size: 1.3rem;
+    
+  }
+  section#footer-section ul li i:hover{
+    color: #CDA45E;
+  }
+  section#footer-section ul li a{
+   text-decoration: none;
+   color: white;
+   transition: .3s;
+  }
+  section#footer-section ul li a::after{
+    content: " ";
+    width: 20px;
+    height: 2px;
+    background: #CDA45E;
+    display: block;
+    transform: translate(-30px,-12px);
+}
+
+  section#footer-section ul li a:hover{
+    color:#CDA45E
+  }
+  .subs_div{
+      position: relative;
+  }
+  .subs_div input{
+  
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+
+  }
+  .subs_div .button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+   
+   
+  }
+  .subs_div .button button{
+     padding: 10px 25px;
+    background: #CDA461;
+    color: white;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+  }
+  /* footer section ends here */
+  /* Copyright-section start here */
+    section#Copyright-section{
+        background: #000000;
+        border-top: 1px solid #999;
+    }
+    .copyright-content span{
+        font-weight: 600;
+    }
+    .copyright-content #logofooter{
+        color: #CDA45E;
+    }
+    .copyright-content #logofooter:hover{
+        color: #d6bb8d;
+    }
+  /* Copyright-section ends here */
