@@ -796,3 +796,11 @@ section#contact-section{
         color: #d6bb8d;
     }
   /* Copyright-section ends here */
+  /* responsive for redmi 9*/
+  @media screen and (max-width: 348px) {
+.phone_date span {
+    font-size: .8rem;
+
+  }
+}
+  
