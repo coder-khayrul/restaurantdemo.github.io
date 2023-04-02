@@ -785,6 +785,7 @@ section#contact-section{
     section#Copyright-section{
         background: #000000;
         border-top: 1px solid #999;
+        padding-bottom: 0;
     }
     .copyright-content span{
         font-weight: 600;
