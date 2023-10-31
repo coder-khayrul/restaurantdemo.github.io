@@ -67,3 +67,5 @@ var gallery = new SimpleLightbox('.gallery a', {
 
   });
 
+// mixitup scrpt here
+var mixer = mixitup('.mixitup_section');
