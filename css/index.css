@@ -10,7 +10,7 @@
 }
 
 section {
-    padding: 60px 0px;
+    /* padding: 60px 0px; */
     overflow: hidden;
 }
 
@@ -92,6 +92,7 @@ section {
 #hero-section {
     height: 80vh;
     color: white !important;
+    padding: 60px 0px;
 }
 
 .heading h1 {
@@ -273,6 +274,7 @@ section#about_section .content p {
 /* ourRestaurant-section start here */
 section#ourRestaurant-section {
     background: #0C0B09;
+    padding: 60px 0px;
 }
 
 section#ourRestaurant-section .singleBox {
@@ -338,6 +340,7 @@ section#ourRestaurant-section .singleBox:hover {
 /* our Testy section start here */
 #ourTest-section {
     background-color: #1A1814;
+    padding: 60px 0px;
 }
 
 .food_img {
@@ -427,6 +430,7 @@ section#ourRestaurant-section .singleBox:hover {
 /* our Specials section start here */
 #ourSpecials-section {
     background: #0C0B09;
+    padding: 60px 0px;
 }
 
 .Specials_list ul li:first-child {
@@ -464,6 +468,7 @@ section#ourEvent-section {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding: 60px 0px;
 }
 
 .event-subtitle h3 {
@@ -517,6 +522,7 @@ section#ourEvent-section {
 
   section#tableBooking-section{
     background: #0C0B09;
+    padding: 60px 0px;
   } 
   .form-input input , .formInput input{
     width: 100%;
@@ -567,6 +573,7 @@ section#ourEvent-section {
 
   section#testimonial-section{
     background: #1A1814;
+    padding: 60px 0px;
   }
   .testimonial_box{
     background: #26231D;
@@ -626,6 +633,7 @@ section#ourEvent-section {
   /* gallery section start here */
 section#gallary-section{
     background-color: #0C0B09;
+    padding: 60px 0px;
 }
   .gallery-item{
     padding: 0 !important;
@@ -646,6 +654,7 @@ section#gallary-section{
   /* chefs seciton start here */
   section#ourChefs-section{
     background: #0C0B09;
+    padding: 60px 0px;
   }
   .chefs-card{
     position: relative;
@@ -689,6 +698,7 @@ section#gallary-section{
   /* contact section start here */
 section#contact-section{
     background:#0C0B09;
+    padding: 60px 0px;
 }
 .addr_box{
     margin-bottom: 25px;
@@ -720,6 +730,7 @@ section#contact-section{
     background: #0C0B09;
     border-top: 1px solid #CDA45E;
     color: white;
+    padding: 60px 0px;
   }
   section#footer-section ul li{
     list-style: none;
