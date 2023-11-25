@@ -799,12 +799,12 @@ section#contact-section{
    
   }
   .subs_div .button button{
-     padding: 10px 25px;
-    background: #CDA461;
-    color: white;
-    border-radius: 50px;
-    outline: none;
-    border: none;
+     padding: 9px 25px;
+     background: #CDA461;
+     color: white;
+     border-radius: 50px;
+     outline: none;
+     border: 1px solid transparent;
   }
   /* footer section ends here */
   /* Copyright-section start here */

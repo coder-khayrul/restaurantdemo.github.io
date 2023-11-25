@@ -20,7 +20,7 @@ a.to-top-button {
     text-align: center;
     font-size: 40px;
     font-weight: 600;
-    background-color: rgb(97, 110, 131);
+    background-color: #CDA461;
 }
 
 a.to-top-button:not(.filter):hover { background-color: rgb(121, 121, 121); }
